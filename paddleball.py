@@ -61,7 +61,6 @@ class Paddle:
     def turn_right(self, evt):
         self.x = 2
 
-
 tk = Tk()
 tk.title("Игра")
 tk.resizable(0,0)
@@ -77,8 +76,6 @@ while 1:
     if ball.hit_bottom == False:
         ball.draw()
         paddle.draw()
-    # ball.draw()
-    # paddle.draw()
     tk.update_idletasks()
     tk.update()
     time.sleep(0.01)

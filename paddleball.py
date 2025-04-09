@@ -1,7 +1,7 @@
 from tkinter import *
 import random
 import time
-
+# let's see how branches are working
 class Ball:
     def __init__(self, canvas, paddle, color):
         self.canvas = canvas

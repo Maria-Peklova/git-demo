@@ -2,6 +2,7 @@ from tkinter import *
 import random
 import time
 
+#for tags
 class Ball:
     def __init__(self, canvas, paddle, color):
         self.canvas = canvas
